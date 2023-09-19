@@ -1,0 +1,5 @@
+Due to cross-origin problem I was unable to use test runner properly without disabling
+crome security so i used headless run and it ran without problem.
+
+i used this command in terminal for headless:
+npx cypress run -b chrome --headless --spec "cypress/e2e/testOne.cy.js"
